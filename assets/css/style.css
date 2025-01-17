@@ -82,6 +82,7 @@ body {
   a {
     text-decoration: none;
     color: black;
+    gap: 1rem;
 
     &:hover {
       text-decoration: underline;
