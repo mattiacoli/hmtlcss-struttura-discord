@@ -27,6 +27,14 @@ body {
       background-color: #ee82ee
     }
   }
+
+  .section-items {
+    background-color: #1e90ff;
+  }
+
+  .section-items-2 {
+    background-color: #ffc0cb;
+  }
 }
 
 .bg-light {
@@ -80,4 +88,25 @@ body {
   .jumbo-item {
     min-height: 100px;
   }
+}
+
+section {
+  min-height: 250px;
+  padding: 2rem 0;
+  display: flex;
+
+
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.section-items {
+  min-height: 230px;
+  width: 70%;
+}
+
+.section-items-2 {
+  width: 30%;
 }
