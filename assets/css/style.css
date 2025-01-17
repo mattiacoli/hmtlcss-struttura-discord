@@ -35,6 +35,10 @@ body {
   .section-items-2 {
     background-color: #ffc0cb;
   }
+
+  .tech-items{
+    background-color:#228b22 ;
+  }
 }
 
 .bg-light {
@@ -105,14 +109,26 @@ section {
     display: flex;
     flex-direction: row-reverse;
   }
+
+  .section-items {
+    min-height: 230px;
+    width: 70%;
+  }
+
+  .section-items-2 {
+    width: 30%;
+  }
 }
 
-.section-items {
-  min-height: 230px;
-  width: 70%;
-}
 
-.section-items-2 {
-  width: 30%;
+
+#tecnology {
+  min-height: 600px;
+
+  .tech-items{
+    min-height: 500px;
+    width: 100%;
+  }
+
 }
 
