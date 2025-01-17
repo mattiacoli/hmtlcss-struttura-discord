@@ -1,34 +1,83 @@
 /* reset */
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-/* Utilities */
-.debug{
- .bg-header {
-    background-color:#add8e6;
+html,
+body {
+  height: 100%;
+}
 
-    *{
+/* Utilities */
+.debug {
+  .bg-header {
+    background-color: #add8e6;
+
+    * {
       background-color: #daa520;
+    }
+  }
+
+  #jumbotron {
+    background-color: #00008b;
+
+    .jumbo-item {
+      background-color: #ee82ee
     }
   }
 }
 
-.container{
-  width: 80%;
-  margin:auto
-  border:1px dashed;
+.bg-light {
+  background-color: #d3d3d3;
 }
 
+.bg-ligher {
+  background-color: #ffff;
 
+}
 
-#site-header{
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+/* header */
+#site-header {
   min-height: 30px;
+  display: flex;
+  align-items: center;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  a {
+    text-decoration: none;
+    color: black;
+
+    &:hover {
+      text-decoration: underline;
+      color: rgb(56, 3, 56);
+    }
+  }
+}
+
+/* main */
+
+#jumbotron {
+  min-height: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-left: 5rem;
+  padding-right: 5rem;
+
+  .jumbo-item {
+    min-height: 100px;
+  }
 }
-
-
