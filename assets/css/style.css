@@ -1,0 +1,34 @@
+/* reset */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Utilities */
+.debug{
+ .bg-header {
+    background-color:#add8e6;
+
+    *{
+      background-color: #daa520;
+    }
+  }
+}
+
+.container{
+  width: 80%;
+  margin:auto
+  border:1px dashed;
+}
+
+
+
+#site-header{
+  min-height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
