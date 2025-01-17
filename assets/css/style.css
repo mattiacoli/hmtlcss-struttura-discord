@@ -96,9 +96,14 @@ section {
   display: flex;
 
 
-  .container {
+  .d-flex {
     display: flex;
     justify-content: center;
+  }
+
+  .d-flex-reverse {
+    display: flex;
+    flex-direction: row-reverse;
   }
 }
 
