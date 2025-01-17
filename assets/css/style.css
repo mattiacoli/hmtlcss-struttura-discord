@@ -43,6 +43,7 @@ body {
   .bg-footer-bar {
     background-color: #7fffd4;
   }
+
 }
 
 /* Utilities */
@@ -66,11 +67,12 @@ body {
 
 /* header */
 #site-header {
-  min-height: 30px;
+  padding: 1rem 0;
   display: flex;
   align-items: center;
 
   .container {
+    padding: 0.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -98,11 +100,12 @@ body {
 
   .jumbo-item {
     min-height: 100px;
+    border: 1px dashed;
   }
 }
 
 section {
-;
+
   padding: 2rem 0;
   display: flex;
 
@@ -120,10 +123,12 @@ section {
   .section-items {
     min-height: 230px;
     width: 70%;
+    border: 1px dashed;
   }
 
-  .section-items-2 {
+  .section-items:last-child {
     width: 30%;
+    background-color: #ffc0cb
   }
 }
 
@@ -131,8 +136,10 @@ section {
 
 
   .tech-items {
+    border: 1px dashed;
     min-height: 500px;
     width: 100%;
+    border: 1px dashed;
   }
 
 }
@@ -149,9 +156,8 @@ section {
     justify-content: center;
   }
 
-  .footer-items:first-child{
-    min-height: 300px;
-   width: 40%;
+  .footer-items:first-child {
+    width: 50%;
     background-color: #ffc0cb;
   }
 
@@ -165,5 +171,15 @@ section {
   .flex-foot-bar {
     display: flex;
     justify-content: space-between;
+    padding: 0.5rem 0.5rem;
+
   }
+
+  .footer-bar {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 2px solid #d3d3d3;
+  }
+
+
 }
