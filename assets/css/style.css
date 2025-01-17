@@ -10,7 +10,7 @@ body {
   height: 100%;
 }
 
-/* Utilities */
+/* Debug */
 .debug {
   .bg-header {
     background-color: #add8e6;
@@ -36,24 +36,33 @@ body {
     background-color: #ffc0cb;
   }
 
-  .tech-items{
-    background-color:#228b22 ;
+  .tech-items {
+    background-color: #228b22;
+  }
+
+  .bg-footer-bar {
+    background-color: #7fffd4;
   }
 }
 
+/* Utilities */
 .bg-light {
   background-color: #d3d3d3;
 }
 
 .bg-ligher {
   background-color: #ffff;
+}
 
+.bg-dark {
+  background-color: #23272a;
 }
 
 .container {
   width: 80%;
   margin: auto;
 }
+
 
 /* header */
 #site-header {
@@ -120,15 +129,43 @@ section {
   }
 }
 
-
-
 #tecnology {
   min-height: 600px;
 
-  .tech-items{
+  .tech-items {
     min-height: 500px;
     width: 100%;
   }
 
 }
 
+
+/* footer */
+
+#footer-site {
+  min-height: 500px;
+
+  .foot-flex {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-items-1 {
+    min-height: 300px;
+    flex-grow: 2;
+    background-color: #ffc0cb;
+  }
+
+  .footer-items {
+    min-height: 300px;
+    flex-grow: 1;
+    background-color: #20b2aa;
+    border: 1px dashed;
+  }
+
+  .flex-foot-bar {
+    display: flex;
+    justify-content: space-between;
+  }
+}
